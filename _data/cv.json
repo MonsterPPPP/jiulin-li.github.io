@@ -1,152 +1,220 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Jiulin Li / 李九林",
+    "label": "AI-native Product Engineer and Applied AI Researcher",
+    "email": "lijiulin@bupt.edu.cn",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://jiulin-li.github.io/",
+    "summary": "M.Sc. candidate in Computer Technology at BUPT, working across AI agents, multimodal systems, full-stack AI products, vertical-domain data assets, and applied research.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Beijing",
+      "countryCode": "CN",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "username": "Jiulin Li",
+        "url": "https://scholar.google.com/citations?user=730nEoQAAAAJ&hl=zh-CN&oi=ao"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "jiulin-li",
+        "url": "https://github.com/jiulin-li"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "北京六艺观化科技有限公司 / 六艺AI",
+      "position": "Founder, CEO/CTO, Product Lead",
+      "startDate": "2025.10",
+      "endDate": "Present",
+      "summary": "Founded and led an AI-powered traditional-culture report product from product definition to full-stack implementation, payment, report delivery, operations, and deployment.",
+      "highlights": [
+        "Built the public product at www.liuyi.life with React 19, Vite, TypeScript, FastAPI, Postgres, DingMing, GenService, Dulupay, systemd, nginx, and CDN.",
+        "Designed the full delivery loop from birth data and questionnaire to structured analysis, free preview, paid/voucher unlock, full report generation, and report retrieval.",
+        "Developed internal tooling around SKU configuration, Ops Dashboard, GenMonitor, voucher scripts, and deployment documentation."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "Beijing Institute for General Artificial Intelligence (BIGAI)",
+      "position": "Multimodal Large Model Algorithm Intern",
+      "startDate": "2025.03",
+      "endDate": "2025.08",
+      "summary": "Worked on Any2Any multimodal understanding/generation systems and the MAGUS multi-agent multimodal framework.",
+      "highlights": [
+        "Surveyed and evaluated VILA-U, NeXT-GPT, Wan2.1, Open-Sora, Qwen2.5-Omni, Wan2.1-VACE, AudioLDM2, and EmotiVoice.",
+        "Participated in multimodal instruction data construction, VAE projector exploration, MLLM evaluation, and modular model orchestration.",
+        "Contributed to MAGUS, which uses role-conditioned MLLM agents and Growth-Aware Search to coordinate LLM reasoning with diffusion generation."
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
+  "education": [
+    {
+      "institution": "Beijing University of Posts and Telecommunications",
+      "area": "M.Sc. in Computer Technology",
+      "studyType": "Master",
+      "startDate": "2023.09",
+      "endDate": "2026.06 expected",
+      "gpa": "3.63/4.0",
+      "courses": [
+        "Human-Computer Dialogue Systems",
+        "Complex Networks",
+        "High Performance Computing",
+        "Emerging Internet Technology and Services",
+        "Software Quality Control and Project Management"
+      ]
+    },
+    {
+      "institution": "BUPT / Queen Mary University of London",
+      "area": "B.E. in Internet of Things Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2019.09",
+      "endDate": "2023.06",
+      "gpa": "3.69/4.0",
+      "courses": [
+        "First Class Honours",
+        "Recommended for postgraduate admission without entrance examination"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI Agents and LLM Workflows",
+      "keywords": [
+        "Multi-Agent",
+        "Context Engineering",
+        "Function Calling",
+        "MCP",
+        "Skill Workflow",
+        "Codex",
+        "Claude Code",
+        "OpenClaw",
+        "Feishu Reporting"
+      ]
+    },
+    {
+      "name": "Full-Stack AI Product Engineering",
+      "keywords": [
+        "React 19",
+        "Vite",
+        "TypeScript",
+        "FastAPI",
+        "Postgres",
+        "Dulupay",
+        "GenService",
+        "Ops Dashboard",
+        "Linux",
+        "systemd",
+        "nginx",
+        "CDN"
+      ]
+    },
+    {
+      "name": "Multimodal Models and Evaluation",
+      "keywords": [
+        "LLM",
+        "MLLM",
+        "VLM",
+        "Any2Any",
+        "Diffusion",
+        "Qwen2.5-Omni",
+        "Wan2.1",
+        "VILA-U",
+        "NeXT-GPT",
+        "Open-Sora",
+        "Benchmark Design",
+        "Error Analysis"
+      ]
+    },
+    {
+      "name": "Data and Benchmark",
+      "keywords": [
+        "Structured Extraction",
+        "QA Generation",
+        "Provenance",
+        "Deduplication",
+        "RAG Evaluation",
+        "Agent Evaluation",
+        "Vertical-Domain Data Assets"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "IELTS Academic Overall 6.5, CEFR B2"
+    }
+  ],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "MAGUS: A Unified Multi-Agent Framework for Universal Multimodal Understanding and Generation",
+      "publisher": "arXiv",
+      "releaseDate": "2025",
+      "website": "https://arxiv.org/abs/2508.10494",
+      "summary": "A modular multi-agent framework for universal multimodal understanding and generation."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "WaveDN: A Wavelet-based Training-free Zero-shot Enhancement for Vision-Language Models",
+      "publisher": "ACM MM 2024",
+      "releaseDate": "2024",
+      "website": "https://dl.acm.org/doi/10.1145/3664647.3681559",
+      "summary": "First-author paper on training-free zero-shot VLM enhancement from a signal-processing perspective."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Enhancing the Zero-shot Capability of Vision-Language Models from the Perspective of Modality Divergence / AdaDN",
+      "publisher": "Manuscript under review",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "A modality-divergence-aware adaptive normalization method for vision-language models."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "A Fuzzy Error Based Fine-Tune Method for Spatio-Temporal Recognition Model",
+      "publisher": "PRCV 2023",
+      "releaseDate": "2023",
+      "website": "https://link.springer.com/chapter/10.1007/978-981-99-8429-9_8",
+      "summary": "A fine-tuning method for reducing high-confidence errors in low-information video segments."
+    },
+    {
+      "name": "Meal delivery routing optimization with order allocation strategy based on transfer stations for instant logistics services",
+      "publisher": "IET Intelligent Transport Systems",
+      "releaseDate": "2022",
+      "website": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/itr2.12206",
+      "summary": "Routing optimization and order-splitting strategy for instant logistics services."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "name": "Liuyi AI / FateRipple",
+      "category": "AI Product",
+      "date": "2025",
+      "url": "https://www.liuyi.life",
+      "description": "AI-powered personalized report product with full-stack engineering, payment, report generation, operations, and deployment workflows."
+    },
+    {
+      "name": "OpenClaw Multi-Agent Operations",
+      "category": "AI Agent Workflow",
+      "date": "2026",
+      "url": "https://jiulin-li.github.io/projects/",
+      "description": "Long-running agent workflows for data collection, author discovery, JSONL incremental writes, status tracking, reporting, and knowledge compression."
+    },
+    {
+      "name": "DingMing / YiWorld",
+      "category": "Vertical-Domain Algorithm Platform",
+      "date": "2025",
+      "url": "https://jiulin-li.github.io/projects/",
+      "description": "Python core library and service layer for deterministic domain logic, structured intermediate results, and LLM report generation."
     }
   ]
 }
